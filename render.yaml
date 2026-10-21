@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: hind-luxury-veil
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: ZR_TOKEN
+        sync: false
+      - key: ZR_KEY
+        sync: false
+      - key: ZR_ORIGIN_WILAYA
+        value: "31"
