@@ -1,9 +1,12 @@
 {
-  "name": "hind-luxury-veil-store",
-  "version": "1.0.0",
+  "name": "hind-luxury-veil",
+  "version": "2.0.0",
   "private": true,
-  "description": "hind_luxury_veil online boutique",
-  "main": "server.js",
-  "scripts": { "start": "node server.js" },
-  "engines": { "node": ">=18" }
+  "description": "Feminine fashion boutique storefront with WhatsApp checkout and a configurable shipping-rate adapter.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
 }

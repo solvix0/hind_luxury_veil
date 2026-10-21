@@ -5,12 +5,7 @@ services:
     plan: free
     buildCommand: npm install
     startCommand: npm start
+    healthCheckPath: /api/health
     envVars:
-      - key: PORT
-        value: 8080
-      - key: ZR_TOKEN
-        sync: false
-      - key: ZR_KEY
-        sync: false
-      - key: ZR_ORIGIN_WILAYA
-        value: "31"
+      - key: NODE_VERSION
+        value: 20
